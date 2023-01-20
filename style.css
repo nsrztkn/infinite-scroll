@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  background-color: rgb(206, 147, 214);
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+  padding: 0.5rem;
+  letter-spacing: 0.3rem;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+  color: rgb(240, 220, 245);
+  background-color: rgb(206, 147, 214);
+}
+
+.title {
+  position: fixed;
+  top: 0;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+h1:hover {
+  color: whitesmoke;
+  font-size: 4.1rem;
+}
+
+.loader {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container {
+  margin: 10px 30%;
+  margin-top: 100px;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+  border: 20px solid rgb(240, 220, 245);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.image-container img:hover {
+  border: 20px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 14px;
+}
+
+// Media Query: Large phone
+@media screen and (max-width: 600px) {
+  .image-container {
+    margin: 10px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+// Media Query: Small phone
+@media screen and (max-width: 400px) {
+  .image-container {
+    margin: 10px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
