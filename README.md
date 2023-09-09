@@ -1,4 +1,4 @@
-# infinite-scroll
+Infinite Scroll
 
 Scroll yourself:
 
