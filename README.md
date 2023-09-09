@@ -1,4 +1,4 @@
-Infinite Scroll
+# Infinite Scroll
 
 Scroll yourself:
 
